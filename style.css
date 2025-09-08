@@ -8,14 +8,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-    
-body{
-    background-color: #ffffff;
-    background-image: url(background-grid.jpg);
+body {
+    background-image: url("caquinho-branco.jpg");
+    background-size: cover;
+    background-attachment: fixed;
     background-position: center;
-    background-size: contain;
 }
-
 main{
     width: 350px;
     margin: 20px auto;
@@ -23,6 +21,8 @@ main{
     background-color:var(--main-color);
     font-family: "Archivo", sans-serif; 
     padding-bottom: 25px;
+    position: relative;
+    z-index: 1;   
 }
 
  h2, h3, .price{
