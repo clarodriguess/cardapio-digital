@@ -16,7 +16,7 @@ body {
 }
 main{
     width: 350px;
-    margin: 20px auto;
+    margin: 35px auto 25px;
     box-shadow: 4px 4px 8px 5px #00000050;
     background-color:var(--main-color);
     font-family: "Archivo", sans-serif; 
@@ -93,4 +93,5 @@ footer a {
 footer:hover{
     opacity: 1;
     text-decoration: underline;
+
 }
